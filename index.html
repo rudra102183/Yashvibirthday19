@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌟 Happy Birthday, Yashvi! You're Special! 🌟</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-animation"></div>
+
+    <header class="fade-in">
+        <h1>🎉 Happy Birthday, My Dearest Yashvi! 🎉</h1>
+        <p>This little corner of the internet is just for YOU!</p>
+    </header>
+
+    <main>
+        <section id="special-message-intro" class="card fade-in delay-1">
+            <h2>A Magical Surprise Awaits!</h2>
+            <p>Yashvi, get ready for some fun! Spin the wheel below to reveal your special birthday surprise!</p>
+            <button id="scrollToWheel" class="pulse-button">Spin the Magic Wheel!</button>
+        </section>
+
+        <section id="wheel-game-section" class="card fade-in delay-2">
+            <h2>Spin The Wheel of Fortune!</h2>
+            <div class="wheel-container">
+                <canvas id="wheelCanvas" width="500" height="500"></canvas>
+                <div id="spinButton">SPIN!</div>
+                <div class="pointer-arrow"></div> </div>
+            <p id="wheel-result" class="result-text"></p>
+        </section>
+
+        <section id="video-section" class="card fade-in delay-3">
+            <h2>A Message Just For You! 💖</h2>
+            <p>Before you move on, here's a little something I put together...</p>
+            <div class="video-wrapper">
+                <video controls preload="metadata" loop >
+                    <source src="videos/yashvi_bday_video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <p>Hope you enjoyed that! 🥰</p>
+        </section>
+
+        <section id="gallery-section" class="card fade-in delay-4">
+            <h2>Treasured Memories of Yashvi</h2>
+            <p>A few glimpses of your bachpan...</p>
+            <div class="gallery-grid">
+                <img src="images/yashvi_pic_1.jpg" alt="Yashvi Memory 1" class="gallery-item">
+                <img src="images/yashvi_pic_2.jpg" alt="Yashvi Memory 2" class="gallery-item">
+                <img src="images/yashvi_pic_3.jpg" alt="Yashvi Memory 3" class="gallery-item">
+                <img src="images/yashvi_pic_4.jpg" alt="Yashvi Memory 4" class="gallery-item">
+                <img src="images/yashvi_pic_5.jpg" alt="Yashvi Memory 5" class="gallery-item">
+                <img src="images/yashvi_pic_6.jpg" alt="Yashvi Memory 6" class="gallery-item">
+            </div>
+        </section>
+
+        <section id="personal-message-section" class="card fade-in delay-5">
+            <h2>My Heartfelt Wishes for You, Yashvi</h2>
+            <p class="large-text">My dearest Yashvi,</p>
+            <p>Words can't express how much your friendship means to me. You bring so much light, laughter, and joy into my life. Every moment spent with you is a treasure. I cherish our crazy adventures, our deep talks, and all the silly memories we've made. You're not just a best friend; you're family. </p>
+            <p>On your special day, I wish you endless happiness, success in all your dreams, and a year filled with even more amazing moments. May all your wishes come true, and may you always know how loved and appreciated you are.</p>
+            <p> (ye toh hogya ChatGPt, now few real lines)<p>
+            <p> Happy Birthday Yashvi🥳..My one of the only friend here in Pune❤, The one giving me all the gossips and apni baatein are so shit bro, kaam ki baatein nhi krna chugali is on top😂 #gossippartner
+
+Huhh... I'm bad at expressing thorough words so that's it 😅<p>
+            <p class="signature-text">With all my love and warm wishes,</p>
+            <p class="signature-name">Rudra</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 A Special Birthday Surprise for Yashvi</p>
+    </footer>
+
+    <div id="winModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">×</span> <div id="confetti-container"></div> <h3 id="modal-title">🎉 Congratulations, Yashvi! 🎉</h3>
+            <p id="modal-message">You've won a fantastic surprise!</p>
+            <p class="modal-hint">A hint: It's perfect for carrying your essentials or for college adventures!</p>
+            <button class="modal-button" id="modal-close-button">Claim Your Prize!</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
